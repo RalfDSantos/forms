@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 400px;
+  height: 700px;
+  background-color: hsla(118, 100%, 63%, 0.315);
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+  border-radius: 10px;
+}
+
+.terms {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 40px;
+  font-weight: bold;
+  color: rgba(10, 10, 10, 0.808);
+}
+
+.terms input[type="checkbox"] {
+  margin-right: -85px;
+}
+
+h1 {
+  font-size: 25px;
+  padding: 15px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, #bbff00, #6ad820ee);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-weight: bold;
+  margin-bottom: 3px;
+  padding: 15px;
+  background: linear-gradient(to right, #bbff00, #6ad820ee);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  color: rgba(10, 10, 10, 0.808);
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-weight: bold;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom: 7px;
+  font-weight: bold;
+  border: 1px solid;
+  padding: 5px 15px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+  color: rgba(10, 10, 10, 0.808);
+}
+
+input {
+  border-radius: 5px;
+  width: 200px;
+  transition: 0.5s;
+}
+
+input:hover {
+  border-color: rgb(236, 250, 48);
+}
+
+button:hover {
+  color: rgba(10, 10, 10, 0.808);
+  border-color: rgb(236, 250, 48);
+}
